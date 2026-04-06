@@ -2,7 +2,7 @@
 
 Hackathon project: segment **trees, logs, rocks, and flowers** in desert-style imagery, with **domain randomization**, **focal loss**, **multi-scale training**, optional **DeepLabV3+ ensemble**, a **Flask API**, and a **React dashboard**.
 
-## Why this approach wins (short pitch)
+
 
 1. **Domain randomization** — The model never sees only one “camera” or weather. Heavy photometric augmentations (brightness, noise, blur, color shift, haze/fog) force invariance to appearance changes, which helps **synthetic → real** and **seen → unseen** environments.
 2. **Self-training (pseudo-labeling)** — After supervised training, the model labels **unlabeled** target-domain images where it is confident. Those pixels become extra training signal, nudging the decision boundary toward the deployment domain without new manual masks.
@@ -113,7 +113,7 @@ Outputs:
 - `logs/training_history.jsonl`, `logs/summary_segformer.json`
 - `static/charts/training_segformer.png`
 
-### 4. (Optional) Train DeepLabV3+ for ensemble
+### 4.) Train DeepLabV3+ for ensemble
 
 ```bash
 python train.py --epochs 6 --model deeplab
@@ -168,12 +168,4 @@ Open the printed local URL (e.g. `http://localhost:5173`). The Vite dev server *
 
 ---
 
-## Team storyboard (demo flow)
 
-1. Show **domain randomization** list in `utils/augmentations.py`.
-2. Train (or show pre-trained) — **mIoU** in logs / React chart.
-3. Upload **sample_test_images/test_000.png** — show overlay.
-4. Click **Improve model** — explain pseudo-labels on `data/unlabeled/`.
-5. **Reload weights** — show **before vs after** panel.
-
-Good luck with the hackathon.
