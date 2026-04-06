@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.pt
+*.pth
+checkpoints/
+logs/*.log
+logs/*.jsonl
+outputs/predicted_masks/
+frontend/node_modules/
+frontend/dist/
+.hf_cache/
+checkpoints/hf_cache/
+*.egg-info/
+.DS_Store

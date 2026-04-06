@@ -1,0 +1,20 @@
+# Web API
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Deep learning (install PyTorch for your platform from https://pytorch.org if needed)
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.36.0
+accelerate>=0.25.0
+safetensors>=0.4.0
+
+# Data & vision
+numpy>=1.24.0
+pillow>=10.0.0
+opencv-python-headless>=4.8.0
+albumentations>=1.4.0
+
+# Training utilities
+tqdm>=4.66.0
+matplotlib>=3.8.0

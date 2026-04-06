@@ -1,0 +1,6 @@
+{
+  "best_val_mIoU": 0.04215857290356258,
+  "checkpoint": "C:\\Users\\HP\\Desktop\\Hackethon_Team\\YOLO hack\\checkpoints\\segformer_best.pt",
+  "history_file": "C:\\Users\\HP\\Desktop\\Hackethon_Team\\YOLO hack\\logs\\training_history.jsonl",
+  "chart": "C:\\Users\\HP\\Desktop\\Hackethon_Team\\YOLO hack\\static\\charts\\training_segformer.png"
+}

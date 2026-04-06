@@ -1,0 +1,11 @@
+{
+  "best_val_mIoU_after_self_train": 0.3226931070538609,
+  "checkpoint": "C:\\Users\\yashs\\Downloads\\YOLO hack\\YOLO hack\\checkpoints\\segformer_selftrained.pt",
+  "per_class_last": {
+    "background": 0.8020808049285112,
+    "trees": 0.32047121335051465,
+    "logs": 0.4446324282995234,
+    "rocks": 0.0,
+    "flowers": 0.04628108869075551
+  }
+}
